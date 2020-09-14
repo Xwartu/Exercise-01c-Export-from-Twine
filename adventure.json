@@ -1,0 +1,133 @@
+{
+  "passages": [
+    {
+      "text": "You are standing at a fork in the road. In front of you is three ways to go: To the left to a quaint little Hamlet, to the right a foreboding Fortress, and lastly the way from whence you came. \n\n[[Go North->Fork]]\n[[Go East->Fortress]]\n[[Go South->Way Back]]\n[[Go West->Hamlet]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "Fortress",
+          "pid": "2"
+        },
+        {
+          "name": "Go South",
+          "link": "Way Back",
+          "pid": "3"
+        },
+        {
+          "name": "Go West",
+          "link": "Hamlet",
+          "pid": "4"
+        }
+      ],
+      "name": "Fork",
+      "pid": "1",
+      "position": {
+        "x": "511",
+        "y": "172"
+      }
+    },
+    {
+      "text": "The Fortress looms above you, it's impassable stone face stares deeply into your soul. Having seen this fortress upclose for the first time in your life, being this close has finally let it have an effect on you. You cannot muster the courage to go inside it.\n\n\n[[Go North->Fork]]\n[[Go East->Fork]]\n[[Go South->Fork]]\n[[Go West->Fork]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go South",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go West",
+          "link": "Fork",
+          "pid": "1"
+        }
+      ],
+      "name": "Fortress",
+      "pid": "2",
+      "position": {
+        "x": "265",
+        "y": "142"
+      }
+    },
+    {
+      "text": "The way back only leads to your small farmstead, from which your adventure began! Unfortunately, that means the only way you can go is forward.\n\n[[Go North->Fork]]\n[[Go East->Fork]]\n[[Go South->Fork]]\n[[Go West->Fork]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go South",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go West",
+          "link": "Fork",
+          "pid": "1"
+        }
+      ],
+      "name": "Way Back",
+      "pid": "3",
+      "position": {
+        "x": "512",
+        "y": "351"
+      }
+    },
+    {
+      "text": "The ruined Hamlet appears before you. Destroyed ruins and the bodies of your fellow countryman come into view, as does the visage of some ghastly dark creatures. \n\nYou decide that today is not the day to become a hero...\n\n[[Go North->Fork]]\n[[Go East->Fork]]\n[[Go South->Fork]]\n[[Go West->Fork]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go East",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go South",
+          "link": "Fork",
+          "pid": "1"
+        },
+        {
+          "name": "Go West",
+          "link": "Fork",
+          "pid": "1"
+        }
+      ],
+      "name": "Hamlet",
+      "pid": "4",
+      "position": {
+        "x": "758",
+        "y": "136"
+      }
+    }
+  ],
+  "name": "Story Project",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "256FBD6A-2C20-4736-991D-FA3B6072884E"
+}
